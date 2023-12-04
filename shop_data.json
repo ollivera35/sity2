@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "title": "Товар 1",
+    "vendor_code": "1",
+    "description": "Кудрявцев том 1",
+    "price": 100,
+    "img": "1tom_kud.png"
+  },
+  {
+    "id": "2",
+    "title": "Товар 2",
+    "vendor_code": "2",
+    "description": "Том 2",
+    "price": 200,
+    "img": "2tom_kud.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Товар 3",
+    "vendor_code": "3",
+    "description": "Том 3",
+    "price": 300,
+    "img": "3tom_kud.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Товар 4",
+    "vendor_code": "4",
+    "description": "Учебник 5 класс",
+    "price": 400,
+    "img": "5klass.jpg"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "Товар 5",
+    "vendor_code": "5",
+    "description": "Учебник технология",
+    "price": 400,
+    "img": "technolog.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Товар 6",
+    "vendor_code": "6",
+    "description": "Алгоритмы",
+    "price": 400,
+    "img": "algor.jpg"
+  },
+  {
+    "id": "7",
+    "title": "Товар 7",
+    "vendor_code": "7",
+    "description": "Антидемидович",
+    "price": 700000000000000,
+    "img": "antidemid.jpg"
+  },
+  {
+    "id": "8",
+    "title": "Товар 8",
+    "vendor_code": "8",
+    "description": "Демидович",
+    "price": 800,
+    "img": "demidovich.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Товар 9",
+    "vendor_code": "9",
+    "description": "Учебник",
+    "price": 400,
+    "img": "lerman.jpg"
+  }
+  ,
+  {
+    "id": "10",
+    "title": "Товар 10",
+    "vendor_code": "10",
+    "description": "Задачник",
+    "price": 900,
+    "img": "philipov.jpg"
+  }
+  ,
+  {
+    "id": "11",
+    "title": "Товар 11",
+    "vendor_code": "11",
+    "description": "Задачник по алгебре",
+    "price": 1100,
+    "img": "prosk.jpg"
+  }
+  ,
+  {
+    "id": "12",
+    "title": "Товар 12",
+    "vendor_code": "12",
+    "description": "Учебник по топологии",
+    "price": 10000,
+    "img": "topolog.jpg"
+  }
+]

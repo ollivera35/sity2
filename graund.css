@@ -1,0 +1,107 @@
+body {
+    background-color: #eaf3fa;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #695065;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #2b193f;
+}
+table {
+  background-image: url('backgraund.jpg');
+  background-size: cover;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 0.75rem;
+  border-top: 1px solid #dee2e6;
+}
+
+th {
+  border-bottom: 2px solid #dee2e6;
+}
+
+.thumb {
+    text-align: center;
+}
+
+.foralg {
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #644; /* Цвет фона */
+}
+
+.thumb img  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-bottom: 10px; /* Отступ снизу */
+   }
+
+.usuall {
+    float: none;
+}
+
+.usually {
+   padding-left: 40px;
+   background: transparent;
+   list-style-type: disc;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input, textarea {
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
