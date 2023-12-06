@@ -33,7 +33,7 @@ async function getResponce() {
     for (key in content_price) {
         node_for_insert.innerHTML += `
         <li style="width: 200px" class="d-flex flex-column m-1 p-3 border bg-body">
-        <img style="width: 180px" class="align-self-center" src=${content[key].img}>
+        <img style="width: 180px" class="img-fluid" src=${content[key].img}>
         <h5>${content[key].title}</h5>
         <p>${content[key].description}. Цена ${content[key].price} р.</p>
         <input type="hidden" name= "vendor_code" value=${content[key].vendor_code}>

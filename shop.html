@@ -21,16 +21,16 @@
               <li style="float:right"><a  class="nav-link" href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0"><img src="qestion.png" height="16" width="16"/></a></li>
             </ul>
         </div>
-
     <h3 class="text-center">Магазин</h3>
-    <input type="radio" id="price" name="sort"  onchange="sort()"> price  </input>
-    <input type="radio" id="title" name="sort"  checked onchange="sort()" > title </input>
-    <form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+
+    <input type="radio" id="price" name="sort"  onchange="sort()"> Цена  </input>
+    <input type="radio" id="title" name="sort"  checked onchange="sort()" > Название </input>
+    <div class="card"><form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
         <input name="q" type="hidden" value="search">
         <ul class="d-flex flex-row justify-content-around flex-wrap bg-light" id="node_for_insert">
         </ul>
         <input type="Submit" value="В корзину">
-    </form>
+    </form></div>
 </div>
 <script src="api.js"></script>
 </body>
